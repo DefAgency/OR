@@ -2,6 +2,7 @@
 // specific Drupal libraries are used.
 @import "component/alert";
 @import "component/ajax";
+@import "component/buttons";
 @import "component/field";
 @import "component/file";
 @import "component/filter";
@@ -17,6 +18,14 @@
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
+
+body {
+  font-weight: $font-weight-light;
+}
+
+h3 {
+  font-style: italic;
+}
 
 ol, ul {
   padding-left: 1.5em;

@@ -38,17 +38,18 @@
     appearance: none;
     line-height: 1;
     padding-right: 2em;
+    background-color: rgba($brand-primary, 0.1);
     &::-ms-expand {
       opacity: 0;
     }
   }
   &:after {
-    color: $brand-primary;
+    color: rgba($brand-primary, 0.25);
     content: '▼';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
-    margin-top: -.5em;
+    margin-top: -.25em;
     padding-right: .5em;
     pointer-events: none;
     position: absolute;
@@ -60,7 +61,7 @@
     .has-glyphicons & {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      content: '\e114'; // .glyphicon-chevron-down
+      content:"\e252";
       display: inline-block;
       font-family: 'Glyphicons Halflings';
     }
@@ -100,4 +101,8 @@
       margin-right: 0;
     }
   }
+}
+
+input:checked {
+  background-color: $brand-primary;
 }
