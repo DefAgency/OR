@@ -1,0 +1,12 @@
+name: 'Mail Editor'
+description: 'Allows editing of e-mail templates.'
+# core: 8.x
+type: module
+package: 'Mail'
+configure: mail_edit.list
+
+# Information added by Drupal.org packaging script on 2017-04-11
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'mail_edit'
+datestamp: 1491873848

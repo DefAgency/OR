@@ -1,0 +1,14 @@
+name: 'Google Analytics Reports'
+type: module
+description: 'Display statistics from Google Analytics using Views.'
+package: Statistics
+core: 8.x
+configure: google_analytics_reports_api.settings
+dependencies:
+  - google_analytics_reports_api
+
+
+# Information added by drush on 2016-07-24
+version: '8.x-3.0-beta1+1-dev'
+project: 'google_analytics_reports'
+datestamp: 1469345598

@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.original
+label: Original
+targetEntityType: media
+cache: true

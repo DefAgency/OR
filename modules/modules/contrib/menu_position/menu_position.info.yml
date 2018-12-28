@@ -1,0 +1,11 @@
+name: 'Menu position'
+type: module
+description: 'Customize menu position of nodes depending on their content type, associated terms and others conditions.'
+# core: '8.x'
+configure: entity.menu_position_rule.order_form
+
+# Information added by Drupal.org packaging script on 2018-08-02
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'menu_position'
+datestamp: 1533217989

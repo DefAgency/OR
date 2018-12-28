@@ -1,0 +1,10 @@
+name: Entity Clone
+description: Add a clone action for all entities
+core:  "8.x"
+type: module
+configure: entity_clone.settings
+
+# Information added by drush on 2018-04-16
+version: '8.x-1.0-alpha2+2-dev'
+project: 'entity_clone'
+datestamp: 1523866597

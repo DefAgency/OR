@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: taxonomy_term
+label: 'Terme de taxonomie'
+tags:
+  title: '[term:name] | [site:name]'
+  description: '[term:description]'
+  abstract: '[term:description]'

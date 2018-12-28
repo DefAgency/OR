@@ -1,0 +1,13 @@
+name: 'Shorten URLs Custom Services'
+description: 'Allows administrators to specify custom URL shortening services. <strong>Advanced users only.</strong>'
+# core: 8.x
+package: 'Shorten URLs'
+dependencies:
+  - shorten
+type: module
+
+# Information added by Drupal.org packaging script on 2017-01-27
+version: '8.x-1.0'
+core: '8.x'
+project: 'shorten'
+datestamp: 1485511687

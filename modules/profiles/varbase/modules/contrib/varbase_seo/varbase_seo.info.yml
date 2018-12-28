@@ -1,0 +1,38 @@
+name: 'Varbase SEO'
+description: 'Provide Search Engine Optimization (SEO) Core features and settings.'
+type: module
+package: Varbase
+dependencies:
+  - 'drupal:rdf'
+  - field
+  - google_analytics
+  - metatag
+  - 'metatag:metatag'
+  - 'metatag:metatag_facebook'
+  - 'metatag:metatag_google_plus'
+  - 'metatag:metatag_hreflang'
+  - 'metatag:metatag_mobile'
+  - 'metatag:metatag_open_graph'
+  - 'metatag:metatag_twitter_cards'
+  - 'metatag:metatag_verification'
+  - node
+  - pathauto
+  - 'pathauto:pathauto'
+  - rdf
+  - redirect
+  - 'redirect:redirect'
+  - 'redirect:redirect_404'
+  - 'schema_metatag:schema_article'
+  - 'schema_metatag:schema_item_list'
+  - 'schema_metatag:schema_metatag'
+  - 'schema_metatag:schema_web_page'
+  - 'schema_metatag:schema_web_site'
+  - simple_sitemap
+  - 'simple_sitemap:simple_sitemap'
+  - user
+  - yoast_seo
+  - 'yoast_seo:yoast_seo'
+version: 8.x-5.3
+core: 8.x
+project: varbase_seo
+datestamp: 1543933987

@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: default
+label: 'Par défaut'
+effects: {  }
+pipeline: ''

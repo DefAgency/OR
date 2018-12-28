@@ -1,0 +1,58 @@
+name: 'Varbase Media'
+description: 'Manages type of media contents and entity browsers in the site.'
+type: module
+package: Varbase
+dependencies:
+  - better_exposed_filters
+  - 'better_exposed_filters:better_exposed_filters'
+  - crop
+  - 'crop:crop'
+  - 'dropzonejs:dropzonejs_eb_widget'
+  - dropzonejs_eb_widget
+  - 'drupal:block'
+  - 'drupal:block_content'
+  - 'drupal:breakpoint'
+  - 'drupal:file'
+  - 'drupal:image'
+  - 'drupal:media'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:responsive_image'
+  - 'drupal:taxonomy'
+  - 'drupal:user'
+  - 'drupal:views'
+  - ds
+  - 'ds:ds'
+  - 'ds:ds_extras'
+  - embed
+  - 'embed:embed'
+  - entity_browser
+  - 'entity_browser:entity_browser'
+  - 'entity_browser:entity_browser_entity_form'
+  - entity_browser_enhanced
+  - 'entity_browser_enhanced:entity_browser_enhanced'
+  - entity_browser_generic_embed
+  - entity_embed
+  - 'entity_embed:entity_embed'
+  - field
+  - file
+  - focal_point
+  - 'focal_point:focal_point'
+  - image
+  - media
+  - path
+  - responsive_image
+  - user
+  - varbase_core
+  - 'varbase_media:entity_browser_generic_embed'
+  - video_embed_field
+  - 'video_embed_field:video_embed_field'
+  - 'video_embed_field:video_embed_media'
+  - video_embed_media
+  - views
+  - views_infinite_scroll
+  - 'views_infinite_scroll:views_infinite_scroll'
+version: 8.x-5.10
+core: 8.x
+project: varbase_media
+datestamp: 1544101084

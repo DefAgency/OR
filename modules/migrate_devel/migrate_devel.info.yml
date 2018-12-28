@@ -1,0 +1,15 @@
+name: Migrate Devel
+description: Migrate Development Tools
+package: Migrate
+type: module
+# core: 8.x
+dependencies:
+  - drupal:devel
+  - drupal:migrate
+  - drupal:kint
+
+# Information added by Drupal.org packaging script on 2017-06-25
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'migrate_devel'
+datestamp: 1498434544

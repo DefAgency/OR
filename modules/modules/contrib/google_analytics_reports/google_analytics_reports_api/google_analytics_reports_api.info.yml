@@ -1,0 +1,11 @@
+name: 'Google Analytics Reports API'
+type: module
+description: 'API to access statistics from the <a href="https://developers.google.com/analytics/devguides/reporting/core/v3/">Google Analytics Core Reporting API</a>.'
+package: Statistics
+core: 8.x
+configure: google_analytics_reports_api.settings
+
+# Information added by drush on 2016-07-24
+version: '8.x-3.0-beta1+1-dev'
+project: 'google_analytics_reports'
+datestamp: 1469345598

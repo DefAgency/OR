@@ -1,0 +1,13 @@
+name: Content connected
+type: module
+description: Show how content is connected with other content.
+# core: 8.x
+package: Other
+dependencies:
+  - field
+
+# Information added by Drupal.org packaging script on 2016-07-23
+version: '8.x-1.1'
+core: '8.x'
+project: 'content_connected'
+datestamp: 1469308740

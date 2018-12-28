@@ -1,0 +1,14 @@
+name: 'Localization Client Tester'
+description: 'Localization client tester.'
+type: module
+# core: 8.x
+dependencies:
+  - l10n_client_contributor
+package: Multilingual
+hidden: true
+
+# Information added by Drupal.org packaging script on 2017-10-29
+version: '8.x-1.0-alpha1+17-dev'
+core: '8.x'
+project: 'l10n_client'
+datestamp: 1509274087
