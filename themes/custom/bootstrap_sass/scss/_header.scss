@@ -1,0 +1,83 @@
+.subnavigation {
+
+  background-color: $brand-primary;
+  padding: 1rem 0 2rem 0;
+
+  .slogan {
+    color: $white;
+    margin-bottom: 1rem;
+  }
+
+  .block-dropdown-language {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+  .contact a,
+  .become-member a,
+  .navbar-nav > li > a   {
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+    display: block;
+    font-size: $font-size-base * 0.75;
+    @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
+  }
+
+  .become-member a {
+    @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+  }
+
+  .navbar-nav > li > a {
+    padding: 0.8rem;
+    @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  }
+
+  .navbar-nav > li > a {
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 992px) {
+
+    vertical-align: middle;
+    padding-bottom: 0;
+
+    .slogan,
+    .search-block-form,
+    .contact,
+    .block-dropdown-language,
+    .become-member,
+    .actions {
+      float: left;
+      margin-left: 1.5rem;
+      font-size: $font-size-small;
+    }
+
+    .slogan {
+      width: 30%;
+    }
+
+    .search-block-form {
+      width: 20%;
+    }
+
+    .block-dropdown-language,
+    .contact a,
+    .become-member a,
+    .navbar-nav > li > a {
+      margin-top: 0;
+    }
+
+
+  }
+
+  @media (min-width: 1200px) {
+    .slogan {
+      width: 35%;
+    }
+  }
+
+}
