@@ -2,7 +2,6 @@
 // specific Drupal libraries are used.
 @import "component/alert";
 @import "component/ajax";
-@import "component/buttons";
 @import "component/field";
 @import "component/file";
 @import "component/filter";
@@ -14,6 +13,7 @@
 @import "component/progress-bar";
 @import "component/table-drag";
 @import "component/tabs";
+@import "component/thumbnails";
 @import "component/toolbar";
 
 // jQuery UI style overrides.
@@ -27,7 +27,8 @@ h3 {
   font-style: italic;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
   .popover &:last-child {
     margin-bottom: 0;
@@ -44,7 +45,7 @@ ol, ul {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
 }
 
 // Paragraphs.
@@ -66,8 +67,8 @@ p:last-child,
   }
 }
 
-
-.help-block, .control-group .help-inline {
+.help-block,
+.control-group .help-inline {
   color: $gray-light;
   font-size: 12px;
   margin: 5px 0 10px;
