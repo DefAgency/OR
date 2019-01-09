@@ -1,5 +1,4 @@
 .subnavigation {
-
   background-color: $brand-primary;
   padding: 1rem 0 2rem 0;
 
@@ -10,6 +9,7 @@
 
   .block-dropdown-language {
     margin-top: 1rem;
+    text-align: right;
   }
 
   .navbar-nav {
@@ -17,7 +17,7 @@
   }
   .contact a,
   .become-member a,
-  .navbar-nav > li > a   {
+  .navbar-nav > li > a {
     margin-top: 2rem;
     text-align: center;
     border-radius: 5px;
@@ -28,22 +28,56 @@
   }
 
   .become-member a {
-    @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+    @include button-variant(
+      $btn-warning-color,
+      $btn-warning-bg,
+      $btn-warning-border
+    );
   }
 
   .navbar-nav > li > a {
     padding: 0.8rem;
-    @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+    @include button-variant(
+      $btn-success-color,
+      $btn-success-bg,
+      $btn-success-border
+    );
   }
 
   .navbar-nav > li > a {
     text-transform: uppercase;
   }
 
-  @media (min-width: 992px) {
+  .search-block-form .btn {
+    @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
+  }
 
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact,
+    .become-member,
+    .navbar-nav,
+    .block-dropdown-language {
+      float: left;
+      width: 25%;
+      padding-right: 5%;
+      text-align: center;
+    }
+    .dropdown-language-item {
+      float: left;
+      margin-top: 1rem;
+    }
+    .navbar-nav > li {
+      float: none;
+    }
+  }
+
+  @media (min-width: 992px) {
     vertical-align: middle;
     padding-bottom: 0;
+
+    .region-subnavigation > div {
+      display: flex;
+    }
 
     .slogan,
     .search-block-form,
@@ -51,17 +85,15 @@
     .block-dropdown-language,
     .become-member,
     .actions {
-      float: left;
-      margin-left: 1.5rem;
       font-size: $font-size-small;
+      flex-grow: 1;
+      margin-left: 1rem;
     }
 
     .slogan {
-      width: 30%;
-    }
-
-    .search-block-form {
-      width: 20%;
+      margin-left: 0;
+      flex-grow: 2;
+      line-height: 3.5rem;
     }
 
     .block-dropdown-language,
@@ -71,13 +103,8 @@
       margin-top: 0;
     }
 
-
-  }
-
-  @media (min-width: 1200px) {
-    .slogan {
-      width: 35%;
+    .navbar-right {
+      float: none !important;
     }
   }
-
 }
