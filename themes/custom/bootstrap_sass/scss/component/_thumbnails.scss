@@ -11,14 +11,34 @@
 
   h3 {
     font-style: normal;
+    margin: 0;
+    padding: 2rem;
+    font-size: $font-size-base * 1.75;
   }
 
   h4 {
     font-style: italic;
+    margin: 0;
+    padding: 2rem;
+    line-height: $font-size-base * 2 ;
   }
 
   p {
     font-size: $font-size-base * 1.125;
     font-weight: 300;
+    margin: 0;
+    padding: 0 2rem 1rem 2rem;
   }
+
+  .thumbnail_read_more {
+    text-transform: uppercase;
+    font-size: $font-size-base * 0.75;
+    font-weight: 700;
+    color: $brand-primary;
+    margin: 0 0 0 2rem;
+    padding: 2rem;
+    background: 0 2rem url("../images/icons/plus-primary.svg") no-repeat;
+
+  }
+
 }
