@@ -25,6 +25,7 @@
     display: block;
     font-size: $font-size-base * 0.75;
     @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
+    font-weight: 800;/*FRED*/
   }
 
   .become-member a {
@@ -132,7 +133,7 @@
   @media (min-width: 768px) {
     .navbar-nav {
       position: relative;
-      border-bottom: 1px solid $brand-primary;
+      border-bottom: 1px solid #D8D8D8;
       margin: 1.5rem 0rem;
       font-size: $font-size-base * 1.125;
 
@@ -197,4 +198,11 @@
     }
   }
 
+}
+
+/* FRED */
+.level_one_menu_link,
+.level_one_menu_link_right
+{
+  font-weight: 800;
 }

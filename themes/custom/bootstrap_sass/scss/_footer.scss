@@ -16,6 +16,7 @@
     display: block;
     margin-top: 1rem;
     color: $white;
+    font-weight: 800; /*FRED*/
   }
   .caret {
     display: none;
@@ -84,11 +85,12 @@
   }
 
   @media (min-width: 992px) {
-    .footer_1,
     .footer_2,
-    .footer_3 {
+    .footer_3,
+    .footer_4,
+    .footer_newsletter {
       border-bottom: none;
-      border-right: 1px solid $white;
+      border-left: 1px solid $white;
     }
   }
 }
