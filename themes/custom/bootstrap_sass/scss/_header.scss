@@ -77,10 +77,6 @@
     vertical-align: middle;
     padding-bottom: 0;
 
-    .region-subnavigation > div {
-      display: flex;
-    }
-
     .slogan,
     .search-block-form,
     .contact,
@@ -88,8 +84,13 @@
     .become-member,
     .actions {
       font-size: $font-size-small;
-      flex-grow: 1;
+      float: left;
       margin-left: 1rem;
+    }
+    .search-block-form {
+      clear: left;
+      width: 45%;
+      margin-left: 0;
     }
 
     .slogan {
@@ -127,6 +128,20 @@
     }
     .navbar-nav > li > a {
       background-image: url("../images/icons/member.svg");
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .search-block-form {
+      clear: none;
+      width: 14%;
+      margin-left: 10rem;
+    }
+  }
+
+  @media (min-width: 1366px) {
+    .search-block-form {
+      width: 25%;
     }
   }
 }
