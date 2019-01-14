@@ -25,7 +25,8 @@
     display: block;
     font-size: $font-size-base * 0.75;
     @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
-    font-weight: 800;/*FRED*/
+    font-weight: 700;
+    border-radius: 0;
   }
 
   .become-member a {
@@ -107,6 +108,26 @@
     .navbar-right {
       float: none !important;
     }
+
+    .navbar-nav li {
+      margin-right: 1rem;
+    }
+
+    .contact a,
+    .become-member a,
+    .navbar-nav > li > a {
+      background-position: 1rem;
+      background-image: url("../images/icons/contact.svg");
+      background-repeat: no-repeat;
+      padding-left: 3rem;
+      text-align: left;
+    }
+    .become-member a {
+      background-image: url("../images/icons/star.svg");
+    }
+    .navbar-nav > li > a {
+      background-image: url("../images/icons/member.svg");
+    }
   }
 }
 
@@ -133,7 +154,7 @@
   @media (min-width: 768px) {
     .navbar-nav {
       position: relative;
-      border-bottom: 1px solid #D8D8D8;
+      border-bottom: 1px solid #d8d8d8;
       margin: 1.5rem 0rem;
       font-size: $font-size-base * 1.125;
 
@@ -147,7 +168,6 @@
           a {
             color: $green;
           }
-
         }
       }
 
@@ -183,7 +203,6 @@
   }
 
   @media (min-width: 992px) {
-
     .navbar-header,
     .navbar-collapse {
       padding: 2rem 0;
@@ -197,12 +216,10 @@
       }
     }
   }
-
 }
 
 /* FRED */
 .level_one_menu_link,
-.level_one_menu_link_right
-{
+.level_one_menu_link_right {
   font-weight: 800;
 }
