@@ -7,9 +7,9 @@
 @import "component/filter";
 @import "component/form";
 @import "component/icon";
+@import "component/jumbotron";
 @import "component/navbar";
 @import "component/node";
-@import "component/panel";
 @import "component/progress-bar";
 @import "component/table-drag";
 @import "component/tabs";
@@ -80,7 +80,7 @@ p:last-child,
 
 /*FRED*/
 .front_content {
-margin-top: -77px;
+  margin-top: -77px;
 }
 
 .front_content .thumbnail {
@@ -88,27 +88,24 @@ margin-top: -77px;
 }
 
 .paragraph > .paragraph__column {
-padding-left: 0;
-padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* BBOOTSTRAP CAROUSEL*/
 
 .carousel-control.right {
-background-image: none;
+  background-image: none;
 }
 
 .carousel-control.left {
-background-image: none;
+  background-image: none;
 }
 
-.paragraph--type--groupe-de-thumbnails
-{
-margin-top: 15px;
-margin-bottom: 15px;
+.paragraph--type--groupe-de-thumbnails {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-
-
 
 /* ADMIN */
 .paragraph-type-title {

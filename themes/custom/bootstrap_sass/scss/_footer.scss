@@ -92,5 +92,14 @@
       border-bottom: none;
       border-left: 1px solid $white;
     }
+    .footer_4 {
+      margin-bottom: 0;
+    }
+    .dropdown-menu > li > a {
+      margin-bottom: 0.5rem;
+    }
+    .nav > li {
+      margin-bottom: 2rem;
+    }
   }
 }
